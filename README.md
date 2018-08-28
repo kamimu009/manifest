@@ -1,5 +1,15 @@
 # manifest
 
+1. set ssh config
+
+    ```shell
+    $ nano ~/.ssh/config
+    
+    Host review.gerrithub.io
+    HostName     review.gerrithub.io
+    Port         29418
+    User         XXXX
+    ```
 1. install repo
 
     ```shell
@@ -16,7 +26,7 @@
 1. repo init
 
     ```shell
-    $ repo init -u git@github.com:kamimu009/manifest.git
+    $ repo init -u ssh://review.gerrithub.io:29418/kamimu009/manifest
     ```
 1. repo sync
 
