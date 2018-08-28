@@ -4,7 +4,7 @@
 
     ```shell
     $ nano ~/.ssh/config
-    
+
     Host review.gerrithub.io
     HostName     review.gerrithub.io
     Port         29418
@@ -16,7 +16,7 @@
     curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
     chmod a+x ~/bin/repo
     ```
-    > https://source.android.com/setup/build/downloading  
+    > https://source.android.com/setup/build/downloading
 1. create dhirectory
 
     ```shell
