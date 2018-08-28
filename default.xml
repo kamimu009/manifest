@@ -11,5 +11,5 @@
         sync-j="8" /> 
   
   <project name="kamimu009/rise-app" path="app" />
-  <project name="kamimu009/rise-app-functions" path="functions" />
+  <project name="kamimu009/rjise-app-fb-functions" path="functions" />
 </manifest>
