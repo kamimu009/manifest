@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote 
+        name="origin"
+        fetch="ssh://review.gerrithub.io:29419"
+        review="review.gerrithub.io"/> 
+  
+  <default
+        remote="origin" 
+        revision="master"
+        sync-j="8" /> 
+  
+  <project name="kamimu009/rise-app" path="app" />
+  <project name="kamimu009/rise-app-functions" path="functions" />
+</manifest>
