@@ -3,13 +3,13 @@
   <remote 
         name="origin"
         fetch="ssh://review.gerrithub.io:29419"
-        review="review.gerrithub.io"/> 
-  
+        review="review.gerrithub.io"/>
+
   <default
-        remote="origin" 
+        remote="origin"
         revision="master"
-        sync-j="8" /> 
-  
+        sync-j="8" />
+
   <project name="kamimu009/rise-app" path="app" />
-  <project name="kamimu009/rjise-app-fb-functions" path="functions" />
+  <project name="kamimu009/rise-app-fb-functions" path="functions" />
 </manifest>
